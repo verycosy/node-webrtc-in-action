@@ -25,6 +25,13 @@
     "typescript": "^4.6.3"
   },
   "dependencies": {
-    "@koush/wrtc": "^0.5.3"
+    "@koush/wrtc": "^0.5.3",
+    "opencv4nodejs": "github:wandenberg/opencv4nodejs#change_compile_flags"
+  },
+  "opencv4nodejs": {
+    "disableAutoBuild": 1,
+    "opencvIncludeDir": "/opt/homebrew/Cellar/opencv/4.5.5/include/opencv4",
+    "opencvLibDir": "/opt/homebrew/Cellar/opencv/4.5.5/lib",
+    "opencvBinDir": "/opt/homebrew/Cellar/opencv/4.5.5/bin"
   }
 }
